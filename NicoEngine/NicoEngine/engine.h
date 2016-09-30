@@ -1,0 +1,17 @@
+#pragma once
+
+#include "RenderInterface.h"
+#include "D3DRenderer.h"
+#include "light.h"
+#include "material.h"
+#include "GUI.h"
+#include "mathLibrary.h"
+#include "structs.h"
+#include "InputInterface.h" 
+#include "DirectInput.h" 
+#include "SoundInterface.h"
+#include "DirectMusic.h"
+#include "Token.h"
+#include "CommandScript.h"
+#include "LogSystem.h"
+#include "Camera.h"

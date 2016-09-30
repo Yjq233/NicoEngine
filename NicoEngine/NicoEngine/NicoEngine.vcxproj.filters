@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Math">
+      <UniqueIdentifier>{4e41597e-107b-4619-aaba-6261e9275e87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Math">
+      <UniqueIdentifier>{97481b1a-22ca-4943-b0fc-49f5d5718c1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ModelLoader">
+      <UniqueIdentifier>{cea5f684-64bf-4f39-b309-bc0c119d2970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ModelLoader">
+      <UniqueIdentifier>{837ca71f-12f5-4775-9f32-ad1d7a007901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Script">
+      <UniqueIdentifier>{cea9647c-692c-4717-b4f0-5982bb9aa22e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Script">
+      <UniqueIdentifier>{464acfae-f7c0-437d-89e5-45115ef24e82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Carera">
+      <UniqueIdentifier>{96d717dc-d7bc-4ac4-94a7-abf01976a8fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\LogSystem">
+      <UniqueIdentifier>{f5723537-1d57-4ec1-b374-bbe1338d4b7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Camera">
+      <UniqueIdentifier>{43285a7f-9f9d-454d-9a07-495546c98bf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\LogSystem">
+      <UniqueIdentifier>{ae0accb7-bb73-4401-a36a-ff8f4ca49636}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="engine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mathDefines.h">
+      <Filter>头文件\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="mathLibrary.h">
+      <Filter>头文件\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>头文件\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>头文件\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="quaternion.h">
+      <Filter>头文件\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="ray.h">
+      <Filter>头文件\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="polygon.h">
+      <Filter>头文件\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="physics.h">
+      <Filter>头文件\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="plane.h">
+      <Filter>头文件\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="boundingGeometry.h">
+      <Filter>头文件\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="InputInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectInput.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectMusic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="objLoader.h">
+      <Filter>头文件\ModelLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="UMFLoader.h">
+      <Filter>头文件\ModelLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Token.h">
+      <Filter>头文件\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandScript.h">
+      <Filter>头文件\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="Route.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="XMesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="XStructures.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>头文件\Carera</Filter>
+    </ClInclude>
+    <ClInclude Include="LogSystem.h">
+      <Filter>头文件\LogSystem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D3DRenderer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vector.cpp">
+      <Filter>源文件\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix.cpp">
+      <Filter>源文件\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="quaternion.cpp">
+      <Filter>源文件\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="ray.cpp">
+      <Filter>源文件\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="polygon.cpp">
+      <Filter>源文件\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="plane.cpp">
+      <Filter>源文件\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="boundingGeometry.cpp">
+      <Filter>源文件\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectInput.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectMusic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="objLoader.cpp">
+      <Filter>源文件\ModelLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="UMFLoader.cpp">
+      <Filter>源文件\ModelLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Token.cpp">
+      <Filter>源文件\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandScript.cpp">
+      <Filter>源文件\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="Route.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="XMesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="XStructures.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>源文件\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="LogSystem.cpp">
+      <Filter>源文件\LogSystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

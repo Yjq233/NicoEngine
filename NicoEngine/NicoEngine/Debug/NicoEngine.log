@@ -1,0 +1,4 @@
+﻿main.obj : error LNK2019: 无法解析的外部符号 _Direct3DCreate9@4，该符号在函数 "bool __cdecl InitializeD3D(struct HWND__ *,bool)" (?InitializeD3D@@YA_NPAUHWND__@@_N@Z) 中被引用
+C:\Software\DxSdk9.0\Lib\x64\d3d9.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+C:\Software\DxSdk9.0\Lib\x64\d3dx9.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“X86”冲突
+C:\Users\yejinqi\Documents\Visual Studio 2015\Projects\NicoEngine\Debug\NicoEngine.exe : fatal error LNK1120: 1 个无法解析的外部命令

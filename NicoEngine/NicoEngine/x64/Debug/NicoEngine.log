@@ -1,0 +1,30 @@
+﻿  XStructures.cpp
+c:\users\yejinqi\documents\visual studio 2015\projects\nicoengine\nicoengine\xstructures.cpp(14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\yejinqi\documents\visual studio 2015\projects\nicoengine\nicoengine\xstructures.cpp(46): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  XMesh.cpp
+  vector.cpp
+  UMFLoader.cpp
+  Token.cpp
+c:\users\yejinqi\documents\visual studio 2015\projects\nicoengine\nicoengine\token.cpp(21): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  Route.cpp
+  ray.cpp
+  quaternion.cpp
+  polygon.cpp
+  plane.cpp
+  objLoader.cpp
+c:\users\yejinqi\documents\visual studio 2015\projects\nicoengine\nicoengine\objloader.cpp(159): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  matrix.cpp
+  LogSystem.cpp
+  GUI.cpp
+c:\users\yejinqi\documents\visual studio 2015\projects\nicoengine\nicoengine\gui.cpp(114): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  DirectMusic.cpp
+  DirectInput.cpp
+  c:\software\dxsdk9.0\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  D3DRenderer.cpp
+c:\users\yejinqi\documents\visual studio 2015\projects\nicoengine\nicoengine\d3drenderer.cpp(818): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  CommandScript.cpp
+  Camera.cpp
+  boundingGeometry.cpp
+c:\users\yejinqi\documents\visual studio 2015\projects\nicoengine\nicoengine\boundinggeometry.cpp(225): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+  NicoEngine.vcxproj -> C:\Users\yejinqi\Documents\Visual Studio 2015\Projects\NicoEngine\x64\Debug\NicoEngine.lib
